@@ -1,8 +1,10 @@
-	基于Xilinx FPGA的block ram的写直达与写回cache设计与配套的外部sram控制器 这是一个阻塞式的cache，采用有限状态机进行设计，一个cache行有8个32bit数据，同时还有一个能连续读取256bit数据的外部sram控制器，sram的型号为AS7C34098A (256K x 16)(Alliance 4Mb Fast Asynchronous SRAM) ，工作在50MHz下。
+基于Xilinx FPGA的block ram的写直达与写回cache设计与配套的外部sram控制器 这是一个阻塞式的cache，采用有限状态机进行设计，一个cache行有8个32bit数据，同时还有一个能连续读取256bit数据的外部sram控制器，sram的型号为AS7C34098A (256K x 16)(Alliance 4Mb Fast Asynchronous SRAM) ，工作在50MHz下。
 ## 目录介绍
 |-----写回法cache+sram_carl     ##写回法的cache与sram控制器
+
 |-----写直达cache+sram_carl     ##写直达法的cache与sram控制器
-|-----design.md                          ##设计说明文档
+
+|-----design.md                          ##设计文档
 
 ## cache简要介绍
 
