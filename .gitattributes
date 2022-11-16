@@ -1,4 +1,2 @@
-*.js linguist-language=Verilog
-*.css linguist-language=Verilog
-*.html linguist-language=Verilog
-*.java linguist-language=Verilog
+*.cs linguist-language=Verilog
+*.ico linguist-language=Verilog
