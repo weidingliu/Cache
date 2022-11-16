@@ -1,2 +1,2 @@
 *.vhdl linguist-language=Verilog
-*.ico linguist-language=Verilog
+*.vhd linguist-language=Verilog
