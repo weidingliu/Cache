@@ -23,3 +23,6 @@ cache的基础行由block ram构成，目录中提供了xilinx的ip核。
 
 ## 参考项目
 UltraMIPS_NSCSCC [https://github.com/SocialistDalao/UltraMIPS_NSCSCC](https://github.com/SocialistDalao/UltraMIPS_NSCSCC)
+
+## 写在最后
+本项目基于xilinx公司的vivado设计工具开发，不保证在其他设计平台上的准确性。

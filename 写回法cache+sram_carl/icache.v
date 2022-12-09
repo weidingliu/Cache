@@ -101,7 +101,7 @@ module icache(
     wire [31:0] way1_bank7;
     
     wire [31:0]addr2;
-    wire is_same_line;//表示两个数据是否属于同一个cache行
+    //wire is_same_line;//表示两个数据是否属于同一个cache行
     reg [`cache_lineBus] write_temp;
     
     assign ram_addr=(state==`Write_ram)? ((lru_reg[group_addr]==1'b0)? {tag_way0[9:0],group_addr,3'b000}:{tag_way1[9:0],group_addr,3'b000}):addr[21:2];
